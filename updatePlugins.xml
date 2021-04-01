@@ -1,0 +1,44 @@
+
+<plugins>
+  <plugin id="com.workday.vps.sage" version="3.13.11" url="https://developer.workday.com/vps/ijplugin-assets/artifacts/3.13.11/sage-3.13.11_2020.3.zip">
+    <id>com.workday.vps.sage</id>
+    <change-notes>
+      Version 3.13.11
+      &lt;br&gt;
+
+      &lt;ul&gt;
+        &lt;li&gt;&lt;b&gt;You can no longer deploy apps directly to Implementation tenants. You can only deploy apps to WCP Development tenants.&lt;/b&gt; To install an app on an Implementation tenant, first promote the app to Release Candidate on the Workday Extend Developer Site.&lt;br&gt;&lt;br&gt;If you haven't created a WCP Development tenant for your company, see the &lt;a href="https://developer.workday.com/documentation/sij1574178538082/CreateandManageWCPDevelopmentTenants"&gt;documentation&lt;/a&gt; on the Workday Extend Developer Site.&lt;/li&gt;
+        &lt;br&gt;
+        &lt;li&gt;Enabled Model Components for development and use. Create model components using new IntelliJ actions in the model folder of your app.&lt;/li&gt;
+        &lt;li&gt;Added CLI V3 support and removed support for older versions of the CLI. Download the latest version from the Workday Extend Developer Site to create and test Workday Query Language (WQL) statements in your tenant.&lt;/li&gt;
+        &lt;li&gt;Added read-only support for Workday Orchestrations. Use Orchestration Builder on the Workday Extend Developer Site to create Orchestrations.&lt;/li&gt;
+        &lt;li&gt;Deprecation of IntelliJ versions: 2019.1 and 2019.2. Update to later versions of IntelliJ to continue receiving updates for the Extend Plugin.&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;br&gt;
+
+      Version 3.12.12
+      &lt;br&gt;
+
+      &lt;ul&gt;
+        &lt;li&gt;Deprecated plugin support for 2019.1 and 2019.2.&lt;/li&gt;
+        &lt;li&gt;Added a link to plugin documentation in the IntelliJ Toolbar.&lt;/li&gt;
+        &lt;li&gt;Added support for the ternary operator in PMD Scripting.&lt;/li&gt;
+        &lt;li&gt;Added the ability to report unhandled plugin errors to Workday Extend.&lt;/li&gt;
+        &lt;li&gt;Miscellaneous bug fixes.&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;br&gt;
+
+      &lt;br&gt;&lt;br&gt;
+
+    (c) Copyright Workday, Inc. and others 1999 - 2021. All rights reserved.
+    
+  </change-notes>
+    <description>
+    Supports development of Workday Extend apps using IntelliJ IDEA.&lt;br&gt;&lt;br&gt;
+    
+  </description>
+    <vendor url="http://www.workday.com">Workday</vendor>
+    <name>Workday Extend Plugin for IntelliJ</name>
+    <idea-version since-build="203" until-build="204"/>
+  </plugin>
+</plugins>
